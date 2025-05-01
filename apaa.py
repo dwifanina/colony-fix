@@ -1,6 +1,7 @@
 import streamlit as st
 
 # Sidebar menu
+with st.popover("Menu"):
 menu = st.sidebar.radio("Pilih Menu", ["Home", "Kalkulator Total Plate Count", "Tentang Kami"])
 
 # Tambahkan background image & style
